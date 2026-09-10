@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-version="1.0.0"
+version="1.0.1"
 root="files/zc_plugins/AdvancedSpecialsManager/v${version}"
 
 test -f "${root}/manifest.php"

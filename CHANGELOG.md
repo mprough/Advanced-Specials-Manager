@@ -1,5 +1,10 @@
 # Change history
 
+## 1.0.1, 2026-09-10
+
+- Restored the complete Zen Cart administration document wrapper so administration stylesheets and scripts load normally.
+- Changed included attribute priced products to use Zen Cart's native base price calculation for price filters and calculated discounts.
+
 ## 1.0.0, 2026-09-10
 
 - Added reusable Specials rules.

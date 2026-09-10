@@ -8,7 +8,7 @@ The ownership table allows the plugin to update and remove its own Specials with
 
 ## Selection behavior
 
-Rule filters are joined with AND. Category matching uses `products_to_categories` and optionally walks the category parent relationships. Price filtering uses `products.products_price`, which is the product base price.
+Rule filters are joined with AND. Category matching uses `products_to_categories` and optionally walks the category parent relationships. Normal products use `products.products_price`. Products priced by attributes use Zen Cart's `zen_get_products_base_price()` result, matching the native Specials calculation.
 
 ## Special price behavior
 
