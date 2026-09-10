@@ -2,6 +2,8 @@
 
 Advanced Specials Manager creates ordinary Zen Cart Specials from reusable product selection rules. A rule can select products by manufacturer, category, base price, stock, model prefix, date added, featured status, and active status.
 
+Current release: **1.0.4**
+
 ## Highlights
 
 - Select an entire manufacturer or category.
@@ -54,6 +56,8 @@ Plugin Manager uninstall removes the plugin menu, settings, rule tables, and onl
 - [Installation](docs/INSTALLATION.md)
 - [User guide](docs/USER_GUIDE.md)
 - [Technical notes](docs/TECHNICAL_NOTES.md)
+- [Testing checklist](docs/TESTING.md)
+- [Zen Cart submission copy](docs/ZEN_CART_SUBMISSION.md)
 - [Change history](CHANGELOG.md)
 - [Security policy](SECURITY.md)
 
