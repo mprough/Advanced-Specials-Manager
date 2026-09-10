@@ -1,5 +1,13 @@
 # Change history
 
+## 1.0.4, 2026-09-10
+
+- Added an optional combined quantity sold limit for each rule.
+- Added completed order quantity tracking across every product owned by the rule.
+- Added automatic Special deactivation when the quantity limit is reached.
+- Added quantity sold, remaining quantity, completion status, and counter reset controls.
+- Documented that expiration date and quantity limit use whichever condition occurs first.
+
 ## 1.0.3, 2026-09-10
 
 - Removed the collapsed rule form border that could appear as brackets over the page and Save rule button.

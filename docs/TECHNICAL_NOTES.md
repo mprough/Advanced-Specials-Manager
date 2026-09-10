@@ -2,7 +2,7 @@
 
 ## Database tables
 
-`advanced_specials_rules` stores rule definitions. `advanced_specials_rule_products` records the exact `specials_id` and `products_id` created for each rule.
+`advanced_specials_rules` stores rule definitions. `advanced_specials_rule_products` records the exact `specials_id` and `products_id` created for each rule. `advanced_specials_rule_orders` records each counted order once per rule so a repeated checkout notification cannot count the same order twice.
 
 The ownership table allows the plugin to update and remove its own Specials without treating an existing manual Special as plugin data.
 
@@ -17,3 +17,7 @@ The plugin stores a calculated numeric value in `specials.specials_new_products_
 ## Lifecycle
 
 The scripted installer creates the tables, version marker, and Catalog menu registration. A runtime bootstrap supplies constants before menu creation and repairs a missing registration without rewriting an existing permission record.
+
+## Quantity limit
+
+The catalog observer listens after order products are created. It totals the purchased quantities whose products belong to an active rule, updates that rule's combined counter atomically, and disables the rule's owned Specials when the limit is reached. The expiration date remains Zen Cart's native expiration mechanism, so either condition can end the sale.

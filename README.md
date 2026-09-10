@@ -12,6 +12,7 @@ Advanced Specials Manager creates ordinary Zen Cart Specials from reusable produ
 - Apply a percentage discount, amount discount, or set special price.
 - Optionally round calculated discounts to two decimal places.
 - Set availability and expiration dates.
+- End a rule when either its expiration date arrives or a combined quantity of matching products has sold.
 - Preview matches, calculated prices, exclusions, and conflicts before applying a rule.
 - Preserve manually created Specials and Specials owned by another rule.
 - Remove only Specials created by this plugin when a rule is deleted or uninstalled.
@@ -42,6 +43,7 @@ The rule manager writes normal rows to Zen Cart's `specials` table. Storefront t
 - Set price rules use the entered price exactly. Optional rounding does not alter a set price.
 - Disabling a rule disables its generated Specials. Applying it again updates the products that still match.
 - The preview is advisory. The rule is evaluated again when it is applied.
+- Quantity limits count completed order product quantities across all products owned by the rule. Manual stock changes do not affect the counter.
 
 ## Uninstall
 

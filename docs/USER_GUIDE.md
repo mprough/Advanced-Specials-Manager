@@ -28,6 +28,14 @@ Preview reports each matching product, its current base price, its calculated sp
 
 Existing manual Specials and Specials created by another rule are reported as conflicts and left unchanged.
 
+## End after a quantity is sold
+
+Enter a combined quantity sold limit to end a sale when that many matching items have been sold across the entire rule. The expiration date and quantity limit work together: the sale ends when either condition happens first.
+
+The counter starts when the rule is first applied with a quantity limit. It increases from completed order product quantities, not from manual inventory changes. Canceling or refunding an order does not automatically reopen the sale or subtract from the counter.
+
+Use **Reset quantity sold** before enabling and applying a completed rule for a new promotion.
+
 ## Disable or delete
 
 Disabling a rule disables the Specials it owns. Applying an enabled rule refreshes its product matches and prices. Deleting a rule removes only the Specials owned by that rule.
