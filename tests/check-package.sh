@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-version="1.0.1"
+version="1.0.2"
 root="files/zc_plugins/AdvancedSpecialsManager/v${version}"
 
 test -f "${root}/manifest.php"
@@ -11,6 +11,10 @@ test -f "${root}/admin/includes/classes/AdvancedSpecialsManager.php"
 
 grep -q "'pluginVersion' => 'v${version}'" "${root}/manifest.php"
 grep -q "public string \$version = '${version}'" "${root}/Installer/ScriptedInstaller.php"
+if grep -q "asm_h(zen_href_link" "${root}/admin/advanced_specials_manager.php"; then
+  echo "Zen Cart URLs must not be escaped twice."
+  exit 1
+fi
 
 find files -type f -name '*.php' -print0 | xargs -0 -n1 php -l
 git diff --check

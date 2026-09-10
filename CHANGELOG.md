@@ -1,5 +1,10 @@
 # Change history
 
+## 1.0.2, 2026-09-10
+
+- Corrected double escaping in administration links and form targets so action parameters reach Zen Cart's `cmd` router.
+- Restored Create rule, edit, preview, apply, save, cancel, and delete navigation.
+
 ## 1.0.1, 2026-09-10
 
 - Restored the complete Zen Cart administration document wrapper so administration stylesheets and scripts load normally.
