@@ -1,5 +1,10 @@
 # Change history
 
+## 1.0.3, 2026-09-10
+
+- Removed the collapsed rule form border that could appear as brackets over the page and Save rule button.
+- Added plain instructions for every rule field and clarified how combined filters, price limits, attribute products, pricing methods, dates, and rounding work.
+
 ## 1.0.2, 2026-09-10
 
 - Corrected double escaping in administration links and form targets so action parameters reach Zen Cart's `cmd` router.
