@@ -11,7 +11,7 @@ return [
     'pluginName' => 'Advanced Specials Manager',
     'pluginDescription' => 'Create native Zen Cart Specials from reusable product selection rules.',
     'pluginAuthor' => 'PRO-Webs.net',
-    'pluginId' => 0,
+    'pluginId' => 2260,
     'zcVersions' => ['v200', 'v210', 'v220'],
     'changelog' => 'https://github.com/mprough/Advanced-Specials-Manager/blob/main/CHANGELOG.md',
     'github_repo' => 'https://github.com/mprough/Advanced-Specials-Manager',
