@@ -5,7 +5,7 @@ Use a staging store or a backed up development store before testing a production
 ## Installation and access
 
 - Install with Zen Cart Plugin Manager.
-- Confirm the installed version is 1.0.4.
+- Confirm the installed version is 1.0.5.
 - Confirm **Catalog > Advanced Specials Manager** appears for an authorized administrator.
 - Open the page and confirm the normal Zen Cart administration layout loads.
 - Remove the menu registration in a test database, reload the administration, and confirm runtime repair restores it without changing existing administrator permissions.

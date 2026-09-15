@@ -1,5 +1,10 @@
 # Change history
 
+## 1.0.5, 2026-09-15
+
+- Guarded the root filename constant so the admin bootstrap can load it after the admin fallback without producing a duplicate constant warning.
+- Added a package check that loads the filename definitions twice to prevent this regression.
+
 ## 1.0.4, 2026-09-10
 
 - Added an optional combined quantity sold limit for each rule.

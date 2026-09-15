@@ -6,7 +6,7 @@ Advanced Specials Manager
 
 ## Version
 
-1.0.4
+1.0.5
 
 ## Suggested category
 
@@ -66,7 +66,7 @@ Copy the package `files` directory into the store root, then install **Advanced 
 
 ## Upgrade summary
 
-Copy the new package files into the store root and use Plugin Manager to upgrade. Version 1.0.4 upgrades versions 1.0.0 through 1.0.3 while preserving existing rules and owned Specials.
+Copy the new package files into the store root and use Plugin Manager to upgrade. Version 1.0.5 upgrades versions 1.0.0 through 1.0.4 while preserving existing rules and owned Specials.
 
 ## Support statement
 

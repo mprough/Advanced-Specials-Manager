@@ -2,7 +2,7 @@
 
 Advanced Specials Manager creates ordinary Zen Cart Specials from reusable product selection rules. A rule can select products by manufacturer, category, base price, stock, model prefix, date added, featured status, and active status.
 
-Current release: **1.0.4**
+Current release: **1.0.5**
 
 ## Highlights
 

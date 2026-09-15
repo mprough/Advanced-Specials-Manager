@@ -37,7 +37,7 @@ It also creates a version marker in the configuration table and registers the Ca
 4. Choose the offered upgrade for **Advanced Specials Manager**.
 5. Confirm the installed version and open the rule manager.
 
-Each release has its own complete version directory. Version 1.0.4 can upgrade an installation of versions 1.0.0 through 1.0.3. Existing rules and owned Specials are retained. The 1.0.4 installer adds the quantity tracking columns and order tracking table when they are missing.
+Each release has its own complete version directory. Version 1.0.5 can upgrade an installation of versions 1.0.0 through 1.0.4. Existing rules and owned Specials are retained. The 1.0.5 installer adds the quantity tracking columns and order tracking table when they are missing.
 
 Do not remove an installed version directory manually before Plugin Manager completes the upgrade.
 
