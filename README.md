@@ -55,6 +55,7 @@ Plugin Manager uninstall removes the plugin menu, settings, rule tables, and onl
 
 - [Installation](docs/INSTALLATION.md)
 - [User guide](docs/USER_GUIDE.md)
+- [Configuration and rule fields](docs/CONFIGURATION.md)
 - [Technical notes](docs/TECHNICAL_NOTES.md)
 - [Testing checklist](docs/TESTING.md)
 - [Zen Cart submission copy](docs/ZEN_CART_SUBMISSION.md)
