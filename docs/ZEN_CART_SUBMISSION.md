@@ -6,7 +6,7 @@ Advanced Specials Manager
 
 ## Version
 
-1.0.5
+1.0.6
 
 ## Suggested category
 
@@ -66,7 +66,7 @@ Copy the package `files` directory into the store root, then install **Advanced 
 
 ## Upgrade summary
 
-Copy the new package files into the store root and use Plugin Manager to upgrade. Version 1.0.5 upgrades versions 1.0.0 through 1.0.4 while preserving existing rules and owned Specials.
+Copy the new package files into the store root and use Plugin Manager to upgrade. Version 1.0.6 upgrades versions 1.0.0 through 1.0.5 while preserving existing rules and owned Specials.
 
 ## Support statement
 
@@ -84,4 +84,4 @@ Distributed under the GNU General Public License version 2. This software is pro
 - Maintainer: https://pro-webs.net/
 - Support: https://prowebsinc.zohodesk.com/portal/en/newticket
 
-The Zen Cart plugin page link and numeric `pluginId` can be added after the submission is approved and an official plugin ID is assigned.
+The assigned plugin ID is **2458**. Retain that ID in the manifest when uploading this update to the existing plugin listing.

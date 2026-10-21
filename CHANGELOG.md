@@ -1,5 +1,13 @@
 # Change history
 
+## 1.0.6, 2026-10-21
+
+- Advance the patch version for a new Zen Cart plugin repository upload.
+- Retain the duplicate filename constant warning fix introduced in 1.0.5.
+- Preserve official plugin ID 2458 and validate it during release checks.
+- Build the distribution with one current version directory and one manifest.
+- Existing rules, owned Specials, quantity tracking, and promotion behavior are unchanged.
+
 ## 1.0.5, 2026-09-15
 
 - Guarded the root filename constant so the admin bootstrap can load it after the admin fallback without producing a duplicate constant warning.

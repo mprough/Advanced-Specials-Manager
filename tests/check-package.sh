@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-version="1.0.5"
+version="1.0.6"
 root="files/zc_plugins/AdvancedSpecialsManager/v${version}"
 
 test -f "${root}/manifest.php"
@@ -20,3 +20,5 @@ fi
 
 find files -type f -name '*.php' -print0 | xargs -0 -n1 php -l
 git diff --check
+
+php -r 'define("IS_ADMIN_FLAG", true); $m = require $argv[1]; if ($m["pluginId"] !== 2458 || $m["pluginVersion"] !== "v1.0.6") { fwrite(STDERR, "Manifest ID or version mismatch\n"); exit(1); }' "$root/manifest.php"

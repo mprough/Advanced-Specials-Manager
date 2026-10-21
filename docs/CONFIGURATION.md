@@ -1,12 +1,12 @@
 # Configuration and rule fields
 
-Current release: **1.0.5**. Advanced Specials Manager appears under **Catalog > Advanced Specials Manager**. It has one Zen Cart configuration key, which records the installed version. Promotion choices are saved separately for each rule; they are not store-wide settings under **Configuration**.
+Current release: **1.0.6**. Advanced Specials Manager appears under **Catalog > Advanced Specials Manager**. It has one Zen Cart configuration key, which records the installed version. Promotion choices are saved separately for each rule; they are not store-wide settings under **Configuration**.
 
 ## Zen Cart configuration
 
 | Admin label | Configuration key | Install default | Purpose |
 | --- | --- | --- | --- |
-| Installed version | `PLUGIN_ADVANCED_SPECIALS_MANAGER_VERSION` | `1.0.5` | Read-only version record managed by the Plugin Manager installer. |
+| Installed version | `PLUGIN_ADVANCED_SPECIALS_MANAGER_VERSION` | `1.0.6` | Read-only version record managed by the Plugin Manager installer. |
 
 ## Rule fields
 
@@ -40,4 +40,4 @@ The expiration date and quantity limit can be used together. The rule ends when 
 
 ## Maintenance
 
-The Zen Cart setting comes from [the v1.0.5 scripted installer](../files/zc_plugins/AdvancedSpecialsManager/v1.0.5/Installer/ScriptedInstaller.php). Rule defaults and form controls come from [the admin rule page](../files/zc_plugins/AdvancedSpecialsManager/v1.0.5/admin/advanced_specials_manager.php), with validation in [the manager class](../files/zc_plugins/AdvancedSpecialsManager/v1.0.5/admin/includes/classes/AdvancedSpecialsManager.php). For each new release, compare all three files with this reference, update its version, labels, choices, and defaults, and confirm that stored fields and rule actions remain accurate. See the [user guide](USER_GUIDE.md) for examples and instructions.
+The Zen Cart setting comes from [the v1.0.6 scripted installer](../files/zc_plugins/AdvancedSpecialsManager/v1.0.6/Installer/ScriptedInstaller.php). Rule defaults and form controls come from [the admin rule page](../files/zc_plugins/AdvancedSpecialsManager/v1.0.6/admin/advanced_specials_manager.php), with validation in [the manager class](../files/zc_plugins/AdvancedSpecialsManager/v1.0.6/admin/includes/classes/AdvancedSpecialsManager.php). For each new release, compare all three files with this reference, update its version, labels, choices, and defaults, and confirm that stored fields and rule actions remain accurate. See the [user guide](USER_GUIDE.md) for examples and instructions.
