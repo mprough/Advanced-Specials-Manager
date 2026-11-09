@@ -1,5 +1,7 @@
 # Advanced Specials Manager for Zen Cart
 
+**Download the install ZIP:** [Advanced-Specials-Manager-v1.0.6.zip](https://raw.githubusercontent.com/mprough/Advanced-Specials-Manager/main/dist/Advanced-Specials-Manager-v1.0.6.zip). Extract it on your computer and follow the installation instructions below.
+
 Advanced Specials Manager creates ordinary Zen Cart Specials from reusable product selection rules. A rule can select products by manufacturer, category, base price, stock, model prefix, date added, featured status, and active status.
 
 Current release: **1.0.6**
